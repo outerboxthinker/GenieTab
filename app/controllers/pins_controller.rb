@@ -32,7 +32,7 @@ class PinsController < ApplicationController
       else
         render action: 'edit'
       end
-    end
+  end
 
   def destroy
     @pin.destroy
