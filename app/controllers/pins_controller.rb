@@ -25,7 +25,7 @@ class PinsController < ApplicationController
       render action: 'new'
     end
   end
-
+  
   def update
       if @pin.update(pin_params)
         redirect_to @pin, notice: 'Pin was successful created.'
